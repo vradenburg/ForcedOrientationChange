@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630A06B91884746000D5ED4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630A06B81884746000D5ED4E /* Foundation.framework */; };
+		630A06BB1884746000D5ED4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630A06BA1884746000D5ED4E /* CoreGraphics.framework */; };
+		630A06BD1884746000D5ED4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630A06BC1884746000D5ED4E /* UIKit.framework */; };
+		630A06C31884746000D5ED4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630A06C11884746000D5ED4E /* InfoPlist.strings */; };
+		630A06C51884746000D5ED4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A06C41884746000D5ED4E /* main.m */; };
+		630A06C91884746000D5ED4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A06C81884746000D5ED4E /* AppDelegate.m */; };
+		630A06CB1884746000D5ED4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630A06CA1884746000D5ED4E /* Images.xcassets */; };
+		630A06D21884746000D5ED4E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630A06D11884746000D5ED4E /* XCTest.framework */; };
+		630A06D31884746000D5ED4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630A06B81884746000D5ED4E /* Foundation.framework */; };
+		630A06D41884746000D5ED4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630A06BC1884746000D5ED4E /* UIKit.framework */; };
+		630A06DC1884746000D5ED4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630A06DA1884746000D5ED4E /* InfoPlist.strings */; };
+		630A06DE1884746000D5ED4E /* ForceOrientationChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A06DD1884746000D5ED4E /* ForceOrientationChangeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		630A06D51884746000D5ED4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630A06AD1884746000D5ED4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630A06B41884746000D5ED4E;
+			remoteInfo = ForceOrientationChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		630A06B51884746000D5ED4E /* ForceOrientationChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceOrientationChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630A06B81884746000D5ED4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		630A06BA1884746000D5ED4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		630A06BC1884746000D5ED4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		630A06C01884746000D5ED4E /* ForceOrientationChange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForceOrientationChange-Info.plist"; sourceTree = "<group>"; };
+		630A06C21884746000D5ED4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		630A06C41884746000D5ED4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630A06C61884746000D5ED4E /* ForceOrientationChange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForceOrientationChange-Prefix.pch"; sourceTree = "<group>"; };
+		630A06C71884746000D5ED4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		630A06C81884746000D5ED4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		630A06CA1884746000D5ED4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		630A06D01884746000D5ED4E /* ForceOrientationChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceOrientationChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630A06D11884746000D5ED4E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		630A06D91884746000D5ED4E /* ForceOrientationChangeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForceOrientationChangeTests-Info.plist"; sourceTree = "<group>"; };
+		630A06DB1884746000D5ED4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		630A06DD1884746000D5ED4E /* ForceOrientationChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceOrientationChangeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630A06B21884746000D5ED4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630A06BB1884746000D5ED4E /* CoreGraphics.framework in Frameworks */,
+				630A06BD1884746000D5ED4E /* UIKit.framework in Frameworks */,
+				630A06B91884746000D5ED4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630A06CD1884746000D5ED4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630A06D21884746000D5ED4E /* XCTest.framework in Frameworks */,
+				630A06D41884746000D5ED4E /* UIKit.framework in Frameworks */,
+				630A06D31884746000D5ED4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630A06AC1884746000D5ED4E = {
+			isa = PBXGroup;
+			children = (
+				630A06BE1884746000D5ED4E /* ForceOrientationChange */,
+				630A06D71884746000D5ED4E /* ForceOrientationChangeTests */,
+				630A06B71884746000D5ED4E /* Frameworks */,
+				630A06B61884746000D5ED4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630A06B61884746000D5ED4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630A06B51884746000D5ED4E /* ForceOrientationChange.app */,
+				630A06D01884746000D5ED4E /* ForceOrientationChangeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630A06B71884746000D5ED4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				630A06B81884746000D5ED4E /* Foundation.framework */,
+				630A06BA1884746000D5ED4E /* CoreGraphics.framework */,
+				630A06BC1884746000D5ED4E /* UIKit.framework */,
+				630A06D11884746000D5ED4E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		630A06BE1884746000D5ED4E /* ForceOrientationChange */ = {
+			isa = PBXGroup;
+			children = (
+				630A06C71884746000D5ED4E /* AppDelegate.h */,
+				630A06C81884746000D5ED4E /* AppDelegate.m */,
+				630A06CA1884746000D5ED4E /* Images.xcassets */,
+				630A06BF1884746000D5ED4E /* Supporting Files */,
+			);
+			path = ForceOrientationChange;
+			sourceTree = "<group>";
+		};
+		630A06BF1884746000D5ED4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				630A06C01884746000D5ED4E /* ForceOrientationChange-Info.plist */,
+				630A06C11884746000D5ED4E /* InfoPlist.strings */,
+				630A06C41884746000D5ED4E /* main.m */,
+				630A06C61884746000D5ED4E /* ForceOrientationChange-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		630A06D71884746000D5ED4E /* ForceOrientationChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				630A06DD1884746000D5ED4E /* ForceOrientationChangeTests.m */,
+				630A06D81884746000D5ED4E /* Supporting Files */,
+			);
+			path = ForceOrientationChangeTests;
+			sourceTree = "<group>";
+		};
+		630A06D81884746000D5ED4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				630A06D91884746000D5ED4E /* ForceOrientationChangeTests-Info.plist */,
+				630A06DA1884746000D5ED4E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630A06B41884746000D5ED4E /* ForceOrientationChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630A06E11884746100D5ED4E /* Build configuration list for PBXNativeTarget "ForceOrientationChange" */;
+			buildPhases = (
+				630A06B11884746000D5ED4E /* Sources */,
+				630A06B21884746000D5ED4E /* Frameworks */,
+				630A06B31884746000D5ED4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceOrientationChange;
+			productName = ForceOrientationChange;
+			productReference = 630A06B51884746000D5ED4E /* ForceOrientationChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		630A06CF1884746000D5ED4E /* ForceOrientationChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630A06E41884746100D5ED4E /* Build configuration list for PBXNativeTarget "ForceOrientationChangeTests" */;
+			buildPhases = (
+				630A06CC1884746000D5ED4E /* Sources */,
+				630A06CD1884746000D5ED4E /* Frameworks */,
+				630A06CE1884746000D5ED4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630A06D61884746000D5ED4E /* PBXTargetDependency */,
+			);
+			name = ForceOrientationChangeTests;
+			productName = ForceOrientationChangeTests;
+			productReference = 630A06D01884746000D5ED4E /* ForceOrientationChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630A06AD1884746000D5ED4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = rhender;
+				TargetAttributes = {
+					630A06CF1884746000D5ED4E = {
+						TestTargetID = 630A06B41884746000D5ED4E;
+					};
+				};
+			};
+			buildConfigurationList = 630A06B01884746000D5ED4E /* Build configuration list for PBXProject "ForceOrientationChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 630A06AC1884746000D5ED4E;
+			productRefGroup = 630A06B61884746000D5ED4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630A06B41884746000D5ED4E /* ForceOrientationChange */,
+				630A06CF1884746000D5ED4E /* ForceOrientationChangeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630A06B31884746000D5ED4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630A06C31884746000D5ED4E /* InfoPlist.strings in Resources */,
+				630A06CB1884746000D5ED4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630A06CE1884746000D5ED4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630A06DC1884746000D5ED4E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630A06B11884746000D5ED4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630A06C91884746000D5ED4E /* AppDelegate.m in Sources */,
+				630A06C51884746000D5ED4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630A06CC1884746000D5ED4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630A06DE1884746000D5ED4E /* ForceOrientationChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630A06D61884746000D5ED4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630A06B41884746000D5ED4E /* ForceOrientationChange */;
+			targetProxy = 630A06D51884746000D5ED4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		630A06C11884746000D5ED4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630A06C21884746000D5ED4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		630A06DA1884746000D5ED4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630A06DB1884746000D5ED4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630A06DF1884746100D5ED4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		630A06E01884746100D5ED4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630A06E21884746100D5ED4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForceOrientationChange/ForceOrientationChange-Prefix.pch";
+				INFOPLIST_FILE = "ForceOrientationChange/ForceOrientationChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		630A06E31884746100D5ED4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForceOrientationChange/ForceOrientationChange-Prefix.pch";
+				INFOPLIST_FILE = "ForceOrientationChange/ForceOrientationChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		630A06E51884746100D5ED4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForceOrientationChange.app/ForceOrientationChange";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForceOrientationChange/ForceOrientationChange-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ForceOrientationChangeTests/ForceOrientationChangeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		630A06E61884746100D5ED4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForceOrientationChange.app/ForceOrientationChange";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForceOrientationChange/ForceOrientationChange-Prefix.pch";
+				INFOPLIST_FILE = "ForceOrientationChangeTests/ForceOrientationChangeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630A06B01884746000D5ED4E /* Build configuration list for PBXProject "ForceOrientationChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630A06DF1884746100D5ED4E /* Debug */,
+				630A06E01884746100D5ED4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630A06E11884746100D5ED4E /* Build configuration list for PBXNativeTarget "ForceOrientationChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630A06E21884746100D5ED4E /* Debug */,
+				630A06E31884746100D5ED4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		630A06E41884746100D5ED4E /* Build configuration list for PBXNativeTarget "ForceOrientationChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630A06E51884746100D5ED4E /* Debug */,
+				630A06E61884746100D5ED4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630A06AD1884746000D5ED4E /* Project object */;
+}
