@@ -19,6 +19,9 @@
 		630A06D41884746000D5ED4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630A06BC1884746000D5ED4E /* UIKit.framework */; };
 		630A06DC1884746000D5ED4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630A06DA1884746000D5ED4E /* InfoPlist.strings */; };
 		630A06DE1884746000D5ED4E /* ForceOrientationChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A06DD1884746000D5ED4E /* ForceOrientationChangeTests.m */; };
+		630A06EA188474D600D5ED4E /* DefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A06E8188474D600D5ED4E /* DefaultViewController.m */; };
+		630A06EB188474D600D5ED4E /* DefaultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 630A06E9188474D600D5ED4E /* DefaultViewController.xib */; };
+		630A06ED1884755500D5ED4E /* Happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630A06EC1884755500D5ED4E /* Happy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		630A06D91884746000D5ED4E /* ForceOrientationChangeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForceOrientationChangeTests-Info.plist"; sourceTree = "<group>"; };
 		630A06DB1884746000D5ED4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		630A06DD1884746000D5ED4E /* ForceOrientationChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceOrientationChangeTests.m; sourceTree = "<group>"; };
+		630A06E7188474D600D5ED4E /* DefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultViewController.h; sourceTree = "<group>"; };
+		630A06E8188474D600D5ED4E /* DefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultViewController.m; sourceTree = "<group>"; };
+		630A06E9188474D600D5ED4E /* DefaultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultViewController.xib; sourceTree = "<group>"; };
+		630A06EC1884755500D5ED4E /* Happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +114,12 @@
 		630A06BE1884746000D5ED4E /* ForceOrientationChange */ = {
 			isa = PBXGroup;
 			children = (
+				630A06EC1884755500D5ED4E /* Happy.jpg */,
 				630A06C71884746000D5ED4E /* AppDelegate.h */,
 				630A06C81884746000D5ED4E /* AppDelegate.m */,
+				630A06E7188474D600D5ED4E /* DefaultViewController.h */,
+				630A06E8188474D600D5ED4E /* DefaultViewController.m */,
+				630A06E9188474D600D5ED4E /* DefaultViewController.xib */,
 				630A06CA1884746000D5ED4E /* Images.xcassets */,
 				630A06BF1884746000D5ED4E /* Supporting Files */,
 			);
@@ -219,7 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630A06EB188474D600D5ED4E /* DefaultViewController.xib in Resources */,
 				630A06C31884746000D5ED4E /* InfoPlist.strings in Resources */,
+				630A06ED1884755500D5ED4E /* Happy.jpg in Resources */,
 				630A06CB1884746000D5ED4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				630A06C91884746000D5ED4E /* AppDelegate.m in Sources */,
+				630A06EA188474D600D5ED4E /* DefaultViewController.m in Sources */,
 				630A06C51884746000D5ED4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
